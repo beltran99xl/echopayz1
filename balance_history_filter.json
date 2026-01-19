@@ -1,0 +1,44 @@
+[
+    [
+        [
+            {
+                "element": "select",
+                "name": "type",
+                "type": "select",
+                "label": "type_label"
+            },
+            {
+                "element": "select",
+                "name": "product",
+                "type": "select",
+                "label": "product_label"
+            },
+            {
+                "element": "input",
+                "name": "from_date",
+                "type": "date",
+                "label": "balance_history_filter_from_date_label",
+                "placeholder": "from_date_placeholder",
+                "rules": {
+                    "required": {
+                        "message": "required_message",
+                        "value": 1
+                    }
+                }
+            },
+            {
+                "element": "input",
+                "name": "to_date",
+                "type": "date",
+                "label": "balance_history_filter_to_date_label",
+                "placeholder": "to_date_placeholder",
+                "rules": {
+                    "required": {
+                        "message": "required_message",
+                        "value": 1
+                    }
+                }
+            }
+        ]
+    ]
+]

@@ -1,0 +1,521 @@
+[
+    {
+        "depositFormFields": [
+       
+    
+            [
+                [
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Deposit",
+                        "className": "deposit"
+                    }
+                ]
+            ]
+        ],
+        "withdrawFormFields": [
+            [
+                [
+                    {
+                        "name": "iban",
+                        "label": "IBAN",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "Enter IBAN",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "This field is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "bank_name",
+                        "label": "Bank Name",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "Enter Bank Name",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "This field is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Withdraw",
+                        "className": "withdraw"
+                    }
+                ]
+            ]
+        ],
+        "depositInfoTextKey": "deposit_info_xpay_havale",
+        "withdrawInfoTextKey": "withdraw_info_xpay_havale",
+        "info": {
+            "TRY": {
+                "withdrawProcessTimeType": "hours",
+                "withdrawProcessTime": "0-24",
+                "withdrawFee": 0,
+                "minWithdraw": 100,
+                "maxWithdraw": 1000000,
+                "depositProcessTimeType": "hours",
+                "depositProcessTime": 0,
+                "depositFee": 0,
+                "minDeposit": 100,
+                "maxDeposit": 1000000
+            }
+        },
+        "name": "XPayHavale",
+        "displayName": "XPay Havale",
+        "paymentId": 80001,
+        "backendId": 80001,
+        "xpay_method_id": "havale",
+        "xpay_enabled": true,
+        "translations": {
+            "default": {
+                "withdraw": "<p>Para &ccedil;ekmek i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "deposit": "<p>Para yatırmak i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "displayName": "XPay Havale"
+            }
+        },
+        "image": "https:\/\/cms.kscvacyqafcuagcuagc.com\/content\/images\/payments\/default\/havale.png",
+        "src": "\/content\/images\/payments\/default\/havale.png"
+    },
+    {
+        "order": 1001,
+        "depositFormFields": [
+            [
+                [
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Deposit",
+                        "className": "deposit"
+                    }
+                ]
+            ]
+        ],
+        "withdrawFormFields": [
+            [
+                [
+                    {
+                        "name": "iban",
+                        "label": "Papara ID",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "Enter Papara ID (10 digits)",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "This field is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Withdraw",
+                        "className": "withdraw"
+                    }
+                ]
+            ]
+        ],
+        "depositInfoTextKey": "deposit_info_xpay_papara",
+        "withdrawInfoTextKey": "withdraw_info_xpay_papara",
+        "info": {
+            "TRY": {
+                "withdrawProcessTimeType": "hours",
+                "withdrawProcessTime": "0-12",
+                "withdrawFee": 0,
+                "minWithdraw": 100,
+                "maxWithdraw": 1000000,
+                "depositProcessTimeType": "hours",
+                "depositProcessTime": 0,
+                "depositFee": 0,
+                "minDeposit": 100,
+                "maxDeposit": 500000
+            }
+        },
+        "name": "XPayPapara",
+        "displayName": "XPay Papara",
+        "paymentId": 80002,
+        "backendId": 80002,
+        "xpay_method_id": "papara",
+        "xpay_enabled": true,
+        "translations": {
+            "default": {
+                "withdraw": "<p>Para &ccedil;ekmek i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "deposit": "<p>Para yatırmak i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "displayName": "XPay Papara"
+            }
+        },
+        "image": "https:\/\/cms.kscvacyqafcuagcuagc.com\/storage\/medias\/betovis\/payment_6093_1872355_c3f15dd99aeacffe1dea7662488128e9.png",
+        "src": "\/storage\/medias\/betovis\/payment_6093_1872355_c3f15dd99aeacffe1dea7662488128e9.png"
+    },
+    {
+        "order": 1002,
+        "depositFormFields": [
+            [
+                [
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Deposit",
+                        "className": "deposit"
+                    }
+                ]
+            ]
+        ],
+        "withdrawFormFields": [
+            [
+                [
+                    {
+                        "name": "pay_co_id",
+                        "label": "Pay-Co ID",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "Enter Pay-Co ID",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "This field is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "pay_co_full_name",
+                        "label": "Full Name",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "Enter Full Name",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "This field is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Withdraw",
+                        "className": "withdraw"
+                    }
+                ]
+            ]
+        ],
+        "depositInfoTextKey": "deposit_info_xpay_payco",
+        "withdrawInfoTextKey": "withdraw_info_xpay_payco",
+        "info": {
+            "TRY": {
+                "withdrawProcessTimeType": "hours",
+                "withdrawProcessTime": "0-12",
+                "withdrawFee": 0,
+                "minWithdraw": 100,
+                "maxWithdraw": 100000,
+                "depositProcessTimeType": "hours",
+                "depositProcessTime": 0,
+                "depositFee": 0,
+                "minDeposit": 100,
+                "maxDeposit": 100000
+            }
+        },
+        "name": "XPayPayco",
+        "displayName": "XPay Payco",
+        "paymentId": 80003,
+        "backendId": 80003,
+        "xpay_method_id": "payco",
+        "xpay_enabled": true,
+        "translations": {
+            "default": {
+                "withdraw": "<p>Para &ccedil;ekmek i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "deposit": "<p>Para yatırmak i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "displayName": "XPay Payco"
+            }
+        },
+        "image": "https:\/\/cms.kscvacyqafcuagcuagc.com\/content\/images\/payments\/default\/payco.png",
+        "src": "\/content\/images\/payments\/default\/payco.png"
+    },
+    {
+        "order": 1003,
+        "depositFormFields": [
+            [
+                [
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Deposit",
+                        "className": "deposit"
+                    }
+                ]
+            ]
+        ],
+        "withdrawFormFields": [
+            [
+                [
+                    {
+                        "name": "iban",
+                        "label": "Crypto Address",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "Enter Crypto Address",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "This field is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Withdraw",
+                        "className": "withdraw"
+                    }
+                ]
+            ]
+        ],
+        "depositInfoTextKey": "deposit_info_xpay_crypto",
+        "withdrawInfoTextKey": "withdraw_info_xpay_crypto",
+        "info": {
+            "TRY": {
+                "withdrawProcessTimeType": "hours",
+                "withdrawProcessTime": "0-24",
+                "withdrawFee": 0,
+                "minWithdraw": 100,
+                "maxWithdraw": 5000000,
+                "depositProcessTimeType": "hours",
+                "depositProcessTime": 0,
+                "depositFee": 0,
+                "minDeposit": 100,
+                "maxDeposit": 5000000
+            }
+        },
+        "name": "XPayCrypto",
+        "displayName": "XPay Crypto",
+        "paymentId": 80004,
+        "backendId": 80004,
+        "xpay_method_id": "crypto",
+        "xpay_enabled": true,
+        "translations": {
+            "default": {
+                "withdraw": "<p>Para &ccedil;ekmek i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "deposit": "<p>Para yatırmak i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "displayName": "XPay Crypto"
+            }
+        },
+        "image": "https:\/\/cms.kscvacyqafcuagcuagc.com\/storage\/medias\/betovis\/payment_10423_1872355_6b59d5fa9e6f3234235cd7a5557cab8f.png",
+        "src": "\/storage\/medias\/betovis\/payment_10423_1872355_6b59d5fa9e6f3234235cd7a5557cab8f.png"
+    },
+    {
+        "order": 1004,
+        "depositFormFields": [
+            [
+                [
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Deposit",
+                        "className": "deposit"
+                    }
+                ]
+            ]
+        ],
+        "withdrawFormFields": [
+            [
+                [
+                    {
+                        "name": "iban",
+                        "label": "Paratim ID",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "Enter Paratim ID (10 digits)",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "This field is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "label": "amount",
+                        "placeholder": "Enter Amount",
+                        "className": "",
+                        "customAttrs": [],
+                        "rules": {
+                            "required": {
+                                "message": "Amount is required"
+                            }
+                        }
+                    },
+                    {
+                        "name": "",
+                        "type": "submit",
+                        "label": "Do Withdraw",
+                        "className": "withdraw"
+                    }
+                ]
+            ]
+        ],
+        "depositInfoTextKey": "deposit_info_xpay_paratim",
+        "withdrawInfoTextKey": "withdraw_info_xpay_paratim",
+        "info": {
+            "TRY": {
+                "withdrawProcessTimeType": "hours",
+                "withdrawProcessTime": "0-12",
+                "withdrawFee": 0,
+                "minWithdraw": 100,
+                "maxWithdraw": 250000,
+                "depositProcessTimeType": "hours",
+                "depositProcessTime": 0,
+                "depositFee": 0,
+                "minDeposit": 100,
+                "maxDeposit": 250000
+            }
+        },
+        "name": "XPayParatim",
+        "displayName": "XPay Paratim",
+        "paymentId": 80005,
+        "backendId": 80005,
+        "xpay_method_id": "paratim",
+        "xpay_enabled": true,
+        "translations": {
+            "default": {
+                "withdraw": "<p>Para &ccedil;ekmek i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "deposit": "<p>Para yatırmak i&ccedil;in l&uuml;tfen aşağıdaki t&uuml;m gerekli alanları doldurun.<\/p>\n",
+                "displayName": "XPay Paratim"
+            }
+        },
+        "image": "https:\/\/cms.kscvacyqafcuagcuagc.com\/content\/images\/payments\/default\/paratim.png",
+        "src": "\/content\/images\/payments\/default\/paratim.png"
+    }
+]
